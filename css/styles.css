@@ -1624,9 +1624,9 @@ address {
 
 }
 
-/* Breadcrumps */
+/* Breadcrumbs */
 
-.breadcrumps-heading {
+.breadcrumbs-heading {
   font-family: "Raleway", Arial, sans-serif;
   font-size: 50px;
   font-weight: 800;
@@ -1635,7 +1635,7 @@ address {
   margin: 0;
 }
 
-.breadcrumps {
+.breadcrumbs {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -1645,38 +1645,38 @@ address {
   font-size: 16px;
 }
 
-.breadcrumps-list-item {
+.breadcrumbs-list-item {
   position: relative;
   padding-right: 36px;
 }
 
-.breadcrumps-list-item:not(:last-child)::after {
+.breadcrumbs-list-item:not(:last-child)::after {
   position: absolute;
   content: "";
   top: 7px;
   right: 16px;
   width: 4px;
   height: 7px;
-  background-image: url('../images/breadcrumps.svg');
+  background-image: url('../images/breadcrumbs.svg');
   background-position: center;
   background-repeat: no-repeat;
   opacity: .2;
 }
 
-.breadcrumps-list-item:hover {
+.breadcrumbs-list-item:hover {
   opacity: .6;
 }
 
-.breadcrumps-link:focus-visible {
+.breadcrumbs-link:focus-visible {
   outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
 
-.breadcrumps-list-item:active {
+.breadcrumbs-list-item:active {
   opacity: .3;
 }
 
-.breadcrumps-link {
+.breadcrumbs-link {
   text-decoration: none;
   color: inherit
 }
